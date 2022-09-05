@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go On Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário Concurso - Go On Trip</h1>
+        <p>Se inscreva e concorra!</p>
+    </header>
+<form action="" method="get">
+    <fieldset>
+        <label for="input-name" class="Name">Nome:</label> 
+        <input id="input-name" class="the_input" type="text" placeholder="Digite seu nome" maxlength="50" minlength="10" required>
+        <br><br>
+
+        <label for="input-email" class="email">Email:</label>
+        <input id="input-email" class="the_input" type="text" placeholder="Digite seu email" maxlength="50" minlength="10" required>
+        <br><br>
+
+        <span>Escolha seu destino preferido:</span>
+        <input type="radio" name="destino" class="radios" id="destiny-1" value="praia" required>
+        <label for="destiny-1">praia</label>
+        <input type="radio" name="destino" class="radios" id="destiny-2" value="campo" required>
+        <label for="destiny-2">campo</label>   
+        <input type="radio" name="destino" class="radios" id="destiny-3" value="montanha" required>
+        <label for="destiny-3">montanha</label>
+        <input type="radio" name="destino" class="radios" id="destiny-4" value="cidade" required>
+        <label for="destiny-4">cidade</label>
+        <br><br>
+
+        <label for="" id="comments">Porque você merece vencer o concurso Go On Trip:</label><br>
+        <textarea name="descrition" id="input_descrition" cols="30" rows="10" maxlength="500"></textarea><br>
+    
+        <label for="dateTrip" id="date-trip">Escolha o melhor dia para realizar a viagem:</label>
+        <input type="date" name="date-trip" id="dateTrip" required>
+        <br><br>
+
+        <input type="checkbox" name="checkNews" id="checkNews">
+        <label for="checkNews" class="news">Quero receber mais notificações deste site com outras oportunidades incriveis!</label> 
+        <br>
+
+        <input type="checkbox" id="checkPermission">
+        <label for="checkPermission">Concordo que imagens das minhas férias poderão ser divulgadas em futuros concursos</label>
+        
+        
+    </fieldset>
+        <br>
+        <button id="button-submit" class="the_button" type="submit" >Participar do concurso TrybeTrip</button>
+        <button id="button-clean" class="the_button" type="">Limpar dados</button>
+    <br><br>
+</form>
+<footer>Criado em 05 de setembro de 2022 - Rio de Janeiro</footer>
+
+    <script src="goOnTrip.js"></script>
+</body>
+</html>

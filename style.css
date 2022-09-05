@@ -1,0 +1,40 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color:rgb(179, 117, 179);
+}
+
+fieldset {
+    border-color: rgb(179, 117, 179);
+}
+
+.the_input {
+    width: 40%;
+    padding: 4px;
+}
+
+button {
+    padding: 4px;
+   
+}
+button:hover {
+    background-color: rgb(179, 117, 179);
+    color: aliceblue;
+    border-color: antiquewhite;}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    background-color: #ffff;
+    margin: 2px;
+    font-family: monospace;
+}
+
+
